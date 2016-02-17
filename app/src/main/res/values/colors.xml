@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#f01a1a</color>
+    <color name="yellow">#FBD622</color>
+    <color name="green">#7cb703</color>
+    <color name="blue">#4604cc</color>
+    <color name="color_drawer_item_checked">#FF0000</color>
+    <color name="color_drawer_item_unchecked">#00FF00</color>
+    <color name="color_toolbar_background">#4d5415</color>
+    <color name="signup_page">#ecaeca</color>
+    <color name="white">#ffffff</color>
+    <color name="proceed_button">#F695C1</color>
+    <color name="fb_login_button">#3A5795</color>
+    <color name="google_login_button">#DC473A</color>
+    <color name="black">#000000</color>
+    <color name="light_grey">#9B9597</color>
+    <color name="color_button_product_add">#00CAB4</color>
+    <color name="transparent">#00000000</color>
+    <color name="hex_gray_62">#cecece</color>
+    <color name="hex_gray_89">#e3e3e3</color>
+    <color name="dark_grey">#989898</color>
+    <color name="very_dark_grey">#303030</color>
+    <color name="very_light_grey">#c1c1c1</color>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RevealEffectDemo">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_view_group_reveal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <View
+            android:id="@+id/view_box_red_reveal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/red" />
+
+        <View
+            android:id="@+id/view_box_yellow_reveal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/view_box_red_reveal"
+            android:background="@color/yellow" />
+
+        <View
+            android:id="@+id/view_box_green_reveal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/view_box_red_reveal"
+            android:layout_margin="10dp"
+            android:background="@color/green" />
+
+        <View
+            android:id="@+id/view_box_blue_reveal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/view_box_yellow_reveal"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/view_box_green_reveal"
+            android:background="@color/blue" />
+
+
+    </RelativeLayout>
+
+
+    <ToggleButton
+        android:id="@+id/toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ripple_selector"
+        android:gravity="center"
+        android:textOff="Hide"
+        android:textOn="Show" />
+
+
+</RelativeLayout>
